@@ -200,20 +200,27 @@
             height: 100%;
             border: none;
         }
-        .siga1:hover{
+        #siga {
+            text-align: center;
+            padding: 20px;
+        }
+        #siga p {
+            margin: 0;
+            display: inline-block;
+        }
+        #github {
+            display: inline-block;
             background-color: black;
             color: white;
+            padding: 2px 6px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.5s;
+        }
+        #github:hover {
             transform: scale(1.1);
-        }
-        #siga {
-            margin-top: 35px;
-            text-align: center;
-        }
-        .siga1 {
-            padding: 5px;
-            border-radius: 7px;
-            border: none;
-            transition: all 0.3s ease;
+            background-color: white;
+            color: black;
         }
     </style>
 </head>
@@ -326,10 +333,7 @@
         </p>
     </main>
     <footer id="siga">
-        💻Desenvolvido por Daviolidev |
-        <button class="siga1">
-            Siga-me
-        </button>
+        <p>💻Desenvolvido por Daviolidev | <a href="https://github.com/DaviOliDev" id="github" target="_blank">Siga-me</a></p>
     </footer>
 </body>
 </html>
